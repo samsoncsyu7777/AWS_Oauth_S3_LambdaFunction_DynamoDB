@@ -1,0 +1,2 @@
+# AWS_Oauth_S3_LambdaFunction_DynamoDB
+Oauth is added. Users can log in with Google, Facebook accounts or Email. Their accounts are stored in AWS Cognito. Users cannot access AWS DynamoDB from client side(AWS S3) for the DynamoDB security. AWS S3 can invoke AWS Lambda Function that can access AWS DynamoDB. New users cannot access restricted page until their accounts is authenticated and given a token.
